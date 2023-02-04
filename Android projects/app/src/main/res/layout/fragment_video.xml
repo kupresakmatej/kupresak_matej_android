@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_green"
+    tools:context=".VideoFragment" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="417dp"
+            android:layout_height="587dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="84dp"
+            android:src="@drawable/videos_popup"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:layout_width="327dp"
+            android:layout_height="577dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="86dp"
+            android:contentDescription="@string/scroll_view"
+            android:scrollbars="none"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/backButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_button_start"
+                    android:drawableLeft="@drawable/back_icon_64x64"
+                    android:fontFamily="@font/inter_bold"
+                    android:paddingRight="72dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/back"
+                    android:textAlignment="center"
+                    android:textSize="22sp"
+                    app:backgroundTint="@color/background"
+                    app:iconSize="64dp" />
+
+                <Button
+                    android:id="@+id/chestButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/rounded_button_start"
+                    android:drawableLeft="@drawable/chest_icon_64x64"
+                    android:fontFamily="@font/inter_bold"
+                    android:paddingRight="72dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/chest"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    app:backgroundTint="@color/background"
+                    app:iconSize="64dp" />
+
+                <Button
+                    android:id="@+id/legsButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/rounded_button_start"
+                    android:drawableLeft="@drawable/leg_icon_64x64"
+                    android:fontFamily="@font/inter_bold"
+                    android:paddingRight="72dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/legs"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    app:backgroundTint="@color/background"
+                    app:iconSize="64dp" />
+
+                <Button
+                    android:id="@+id/ankleButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/rounded_button_start"
+                    android:drawableLeft="@drawable/leg_icon_64x64"
+                    android:fontFamily="@font/inter_bold"
+                    android:paddingRight="72dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/ankle"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    app:backgroundTint="@color/background"
+                    app:iconSize="64dp" />
+
+                <Button
+                    android:id="@+id/coreButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/rounded_button_start"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/chest_icon_64x64"
+                    android:focusable="true"
+                    android:fontFamily="@font/inter_bold"
+                    android:paddingRight="72dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="2"
+                    android:text="@string/core"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    app:backgroundTint="@color/background"
+                    app:iconSize="64dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0DFFFFFF"
+            android:scaleX="1.01"
+            android:src="@drawable/nav_bar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/homeNavButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_baseline_home_24" />
+
+            <ImageView
+                android:id="@+id/videoNavButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_baseline_videocam_24" />
+
+            <ImageView
+                android:id="@+id/calendarNavButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_baseline_calendar_month_24" />
+
+            <ImageView
+                android:id="@+id/progressNavButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_baseline_accessibility_24" />
+
+            <ImageView
+                android:id="@+id/infoNavButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_baseline_contact_page_24" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

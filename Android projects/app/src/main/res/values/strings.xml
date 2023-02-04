@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Test app</string>
+    <string name="welcome">Welcome</string>
+    <string name="get_started">Get started</string>
+    <string name="visit_us">Visit us here also.</string>
+    <string name="train_with_us">Train with us</string>
+    <string name="login_text">Login</string>
+    <string name="login_desc">Please log in to continue</string>
+    <string name="register_desc">Please register to continue</string>
+    <string name="scroll_view">Scroll view</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full name</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="email_hint"><font size="16"><i>Enter your email...</i></font></string>
+    <string name="password_hint"><font size="16"><i>Enter your password...</i></font></string>
+    <string name="full_name_hint"><font size="16"><i>Enter your full name...</i></font></string>
+    <string name="height_hint"><font size="16"><i>Enter your height...</i></font></string>
+    <string name="weight_hint"><font size="16"><i>Enter your weight...</i></font></string>
+    <string name="account_hint"><font size="16">Don\'t have an account?</font></string>
+    <string name="sign_up"><font size="16">Sign up</font></string>
+    <string name="register">Register</string>
+    <string name="back">Back and shoulders</string>
+    <string name="chest">Chest and arms</string>
+    <string name="core">Core</string>
+    <string name="legs">Legs</string>
+    <string name="ankle">Ankle</string>
+    <string name="schedule_new">Schedule your next workout!</string>
+    <string name="schedule_button">Schedule</string>
+    <string name="coming_training">Jet to be done...</string>
+    <string name="track_workouts">Track your workouts</string>
+    <string name="calories_hint"><font size="16"><i>Enter calories spent...</i></font></string>
+    <string name="time_hint"><font size="16"><i>Enter time spent(in minutes)...</i></font></string>
+    <string name="adjust_info">Adjust your personal information</string>
+    <string name="let_us_know"><font size="14"><i>Let us know about your progress</i></font></string>
+    <string name="weight_hint_info"><font size="16"><i>Enter your current weight...</i></font></string>
+    <string name="submit">Submit</string>
+    <string name="improvement">Tell us how we can improve</string>
+    <string name="improvement_hint"><font size="16"><i>Tell us how we can improve...</i></font></string>
+    <string name="fill_and_email"><font size="14"><i>Fill this and email it to us</i></font></string>
+    <string name="let_us_know_what_you_think"><font size="12"><i>Let us know what you think.</i></font></string>
+    <string name="send">Send</string>
+    <string name="back_button">Back</string>
+    <string name="choose_workout">Choose your workout</string>
+    <string name="show_video">Show video</string>
+    <string name="logout">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
